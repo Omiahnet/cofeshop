@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+
+  <title> Main Page </title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+ <style>
+     .img9 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.img9:hover {
+  cursor:pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+<a href="paris.jpg">
+  <img src="paris.jpg" alt="Paris">
+</a>
+     </style>
+    <body>
+       <nav class="navbar navbar-expand-lg " style="background-color:#D0BB94">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cofe Types
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Cappuccino</a></li>
+                        <li><a class="dropdown-item" href="#">Cafe au Lait</a></li>
+                        <li><a class="dropdown-item" href="#">Cortado</a></li>
+                        <li><a class="dropdown-item" href="#">Decaf</a></li>
+
+
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+</nav>
+
+
+       <br>
+
+
+
+
+       <div class="container">
+         <div class="row">
+
+              <div class="col-sm-3" >
+                <div class="card m-3 " style="width: 15rem; padding:10px 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                   <img src="img/cofee/Cappuccino.jpg" class="card-img-top img9" alt="{{itm.name}}" style="width:230px;height:230px;">
+                   <div class="card-body">
+                      <h5 class="cart-title" style="font-size:25px;color:gray">Cappuccino </h5>
+                      <p class="card-text text-truncate"> Make your favourite morning coffee from scratch </p>
+                      <a href="#" class="btn btn-primary"> Show Details </a>
+                   </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="card m-3" style="width: 15rem;  padding:10px 10px ; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                   <img src="img/cofee/Cafe au Lait.jpg" class="card-img-top img9" alt="{{itm.name}}" style="width:230px;height:230px;">
+                   <div class="card-body">
+                      <h5 class="cart-title" style="font-size:25px;color:gray">Cafe au Lait </h5>
+                      <p class="card-text text-truncate"> Make your favourite morning coffee from scratch </p>
+                      <a href="#" class="btn btn-primary"> Show Details </a>
+                   </div>
+                </div>
+              </div>
+
+             <div class="col-sm-3">
+                <div class="card m-3" style="width: 15rem;  padding:10px 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                   <img src="img/cofee/Cortado.jpg" class="card-img-top img9" alt="{{itm.name}}" style="width:230px;height:230px;">
+                   <div class="card-body">
+                      <h5 class="cart-title" style="font-size:25px;color:gray">Cortado </h5>
+                      <p class="card-text text-truncate"> Make your favourite morning coffee from scratch </p>
+                      <a href="#" class="btn btn-primary"> Show Details </a>
+                   </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="card m-3" style="width: 15rem;  padding:10px 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                   <img src="img/cofee/Decaf.jpg" class="card-img-top img9" alt="{{itm.name}}" style="width:230px;height:230px;">
+                   <div class="card-body">
+                      <h5 class="cart-title" style="font-size:25px;color:gray">Decaf </h5>
+                      <p class="card-text text-truncate"> Make your favourite morning coffee from scratch </p>
+                      <a href="#" class="btn btn-primary"> Show Details </a>
+                   </div>
+                </div>
+              </div>
+
+
+
+         </div>
+
+
+
+        </div>
+         <hr>
+         <div style="text-align:center ;padding:10px" >
+                 <img src="img/header-coffee.jpg" class="card-img-top" alt="{{itm.name}}" style="width:40%;">
+          </div>
+
+      <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
